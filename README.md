@@ -23,7 +23,7 @@
 > [!TIP]
 > **Kā palaist projektu?**
 > 1. Lejupielādējiet `.jar` failu no sadaļas **[Releases](https://github.com/eqca1/Picerija-PD/releases)**.
-> 2. Pārliecinieties, ka projekta mapē ir izveidota mape `pasutijumi`.
+> 2. Pārliecinieties, ka `.jar` fails atrodas jebkurā mapē.
 
 > [!CAUTION]
 > :octocat:
