@@ -15,9 +15,9 @@ public class DarbsArFailu {
 
 
     public static void saglabatFaila(String dati, boolean vaiAktivs) {
-        String failaCeļš = vaiAktivs ? AKTIVIE : JAUNODOTIE;
+        String fails = vaiAktivs ? AKTIVIE : JAUNODOTIE;
         
-        try (BufferedWriter bw = new BufferedWriter(new FileWriter(failaCeļš, true))) {
+        try (BufferedWriter bw = new BufferedWriter(new FileWriter(fails, true))) {
             bw.write(dati);
             bw.newLine();
         } catch (IOException e) {
@@ -29,13 +29,13 @@ public class DarbsArFailu {
 
 
     public static String lasitNoFaila(boolean vaiAktivs) {
-        String failaCeļš = vaiAktivs ? AKTIVIE : JAUNODOTIE;
+        String fails = vaiAktivs ? AKTIVIE : JAUNODOTIE;
         StringBuilder saturs = new StringBuilder();
-        File f = new File(failaCeļš);
+        File f = new File(fails);
 
         if (!f.exists()) return "Saraksts ir tukšs.";
 
-        try (BufferedReader br = new BufferedReader(new FileReader(failaCeļš))) {
+        try (BufferedReader br = new BufferedReader(new FileReader(fails))) {
             String rinda;
             while ((rinda = br.readLine()) != null) {
                 saturs.append(rinda.replace(";", " | ")).append("\n");
@@ -49,8 +49,8 @@ public class DarbsArFailu {
 
 
     public static void notiritFailu(boolean vaiAktivs) {
-        String failaCeļš = vaiAktivs ? AKTIVIE : JAUNODOTIE;
-        try (FileWriter fw = new FileWriter(failaCeļš, false)) {
+        String fails = vaiAktivs ? AKTIVIE : JAUNODOTIE;
+        try (FileWriter fw = new FileWriter(fails, false)) {
             fw.write("");
         } catch (IOException e) {
             e.printStackTrace();

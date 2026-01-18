@@ -88,7 +88,7 @@ public class Pasutijums {
     public String izvadFailam() {
         return vards + ";" + talrunis + ";" + adrese + ";" + 
                picasLielums[0] + ";" + String.join(",", piedevas) + ";" + 
-               String.join(",", merces) + ";" + uzVietas + ";" + aprekinatCenu();
+               String.join(",", merces) + ";" + (uzVietas ? "Uz vietas" : "Piegāde") + ";" + Math.round(aprekinatCenu() * 100.0) / 100.0;
     }
 
 
@@ -102,7 +102,7 @@ public class Pasutijums {
                 "Piedevas: " + String.join(", ", piedevas) + "\n" +
                 "Mērces: " + String.join(", ", merces) + "\n" +
                 "------------------\n" +
-                "KOPĀ: " + aprekinatCenu() + " EUR";
+                "KOPĀ: " + Math.round(aprekinatCenu() * 100.0) / 100.0 + " EUR";
         JOptionPane.showMessageDialog(null, info, "Pasūtījuma apskate", JOptionPane.INFORMATION_MESSAGE);
     }
 }
