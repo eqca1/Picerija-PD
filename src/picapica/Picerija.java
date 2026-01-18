@@ -1,6 +1,7 @@
 package picapica;
 
 import java.util.ArrayList;
+
 import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
 import javax.swing.JScrollPane;
@@ -103,8 +104,15 @@ public class Picerija {
     }
 
     public static void main(String[] args) {
-        ImageIcon gif = new ImageIcon("atteli/pica.gif");
-        String[] darbibas = {"Jauns pasūtījums", "Apskatīt aktīvos","Pabeigt pasūtījumu", "Apskatīt vēsturi", "Apturēt"};
+    	ImageIcon gif = null;
+        try {
+            @SuppressWarnings("deprecation")
+			java.net.URL url = new java.net.URL("https://media.tenor.com/RhuNVTau1FEAAAAi/limbus-company-rodion.gif");
+            gif = new ImageIcon(url);
+        } catch (java.net.MalformedURLException e) {
+            System.out.println("Nevar ielādēt attēlu no tīkla.");
+        }
+    	String[] darbibas = {"Jauns pasūtījums", "Apskatīt aktīvos","Pabeigt pasūtījumu", "Apskatīt vēsturi", "Apturēt"};
         int izvele;
         do {
             izvele = JOptionPane.showOptionDialog(null, "Izvēlieties darbību:", "Picerija", 
