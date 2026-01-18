@@ -11,7 +11,7 @@
 - [x] **Cenu aprēķināšana**
 - [x] **Datu saglabāšana**
 - [x] **Pasūtījumu vēsture**
-- [x] **Ievades validācija**
+- [x] **Ievades pārbaude**
 
 > [!IMPORTANT]
 > Projektā izmantotās klases:
