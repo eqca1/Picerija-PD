@@ -22,7 +22,7 @@
 
 > [!TIP]
 > **Kā palaist projektu?**
-> 1. Lejupielādējiet `.jar` failu no sadaļas [![Releases](https://img.shields.io/github/v/release/eqca1/Picerija-PD?label=Download%20JAR&style=for-the-badge&color=orange)](https://github.com/eqca1/Picerija-PD/releases)
+> 1. Lejupielādējiet `.jar` failu no sadaļas ![Releases](https://github.com/eqca1/Picerija-PD/releases)
 > 2. Pārliecinieties, ka projekta mapē ir izveidota mape `pasutijumi`.
 
 > [!CAUTION]
