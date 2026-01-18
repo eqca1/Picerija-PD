@@ -1,7 +1,7 @@
-# PicaPica - Picērijas Vadības Sistēma
+# Picērijas vadības sistēma
 
 <p align="center">
-  <img width="498" height="381" src="https://tenor.com/ru/view/limbus-company-rodion-limbus-company-gif-5051786804155307089](https://media.tenor.com/RhuNVTau1FEAAAAi/limbus-company-rodion.gif">
+  <img width="498" height="381" src="https://media.tenor.com/RhuNVTau1FEAAAAi/limbus-company-rodion.gif">
 </p>
 
 > [!IMPORTANT]
