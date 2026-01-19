@@ -22,7 +22,7 @@
 
        
 > [!NOTE]
-> Manas UML diagrammas varat apskatīt **[šeit](https://github.com/eqca1/Picerija-PD/tree/main/UML)**.:file_folder:
+> Manas UML diagrammas varat apskatīt **[šeit](https://github.com/eqca1/Picerija-PD/tree/main/UML)**. :file_folder:
   
 
 > [!TIP]
