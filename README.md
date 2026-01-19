@@ -22,7 +22,7 @@
 
        
 > [!NOTE]
-> **[MANAS UML DIAGRAMMAS](https://github.com/eqca1/Picerija-PD/tree/main/UML)**
+> **[Manas UML diagrammas](https://github.com/eqca1/Picerija-PD/tree/main/UML)**
   
 
 > [!TIP]
