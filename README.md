@@ -20,6 +20,8 @@
  * [x] **Pasutijums** – Objekta klase
  * [x] **DarbsArFailu** – Papildklase
 
+  **[MANAS UML DIAGRAMMAS](https://github.com/eqca1/Picerija-PD/tree/main/UML)**
+
 > [!TIP]
 > **Kā palaist projektu?**
 > 1. Lejupielādējiet `.jar` failu no sadaļas **[Releases](https://github.com/eqca1/Picerija-PD/releases)**.
