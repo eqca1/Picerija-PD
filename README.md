@@ -20,7 +20,10 @@
  * [x] **Pasutijums** – Objekta klase
  * [x] **DarbsArFailu** – Papildklase
 
-  **[MANAS UML DIAGRAMMAS](https://github.com/eqca1/Picerija-PD/tree/main/UML)**
+       
+> [!NOTE]
+> **[MANAS UML DIAGRAMMAS](https://github.com/eqca1/Picerija-PD/tree/main/UML)**
+  
 
 > [!TIP]
 > **Kā palaist projektu?**
